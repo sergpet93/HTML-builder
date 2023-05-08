@@ -1,6 +1,7 @@
 const fs = require('node:fs/promises');
 const path = require('path');
 const fs_1 = require('fs');
+const readline = require('readline');
 
 const options = {withFileTypes: true};
 const pathDir = path.join(__dirname, 'styles');
